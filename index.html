@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Pseudo Voxel Landscape</title>
+            <style>
+                .cnvs-full {
+                    width: 100%;
+                height: 100vh;
+            }
+                .cnvs-true {
+                    width: 320px;
+                height: 240px;
+            }
+                .wnd-hide {
+                    display: none;
+            }
+                .wnd {
+                    position: absolute;
+                /* margin: 0 auto; */
+                background-color: #fff;
+                width: 50vw;
+                height: 50vh;
+                border: 3px solid #000;
+                left: 25%;
+                bottom: 25%;
+                font-family: sans-serif;
+                line-height: 1.5em;
+            }
+                .wnd-title {
+                    width: 100%;
+                background-color: #D90452;
+                font-size: 1.2em;
+                color: #fff;
+                margin-bottom: 5px;
+                /* 1b2732 */
+            }
+                .wnd-subtext {
+                    font-size: 0.8em;
+                position: absolute;
+                bottom: 0;
+                margin: 5px;
+                font-style: italic;
+            }
+                .wnd-subtext .key {
+                    display: inline-block;
+                border: 1px solid #000;
+                padding: 0px 10px;
+            }
+                .wnd-contents {
+                    margin: 4px;
+            }
+            .screen {
+                border: 1px solid #000;
+            }
+            .fullscreen {
+                width: 100vw;
+                height: 100vh;
+            }
+            </style>
+        </head>
+        <body style="margin:0; overflow:hidden; background-color: #1b2732;">
+            <div id="cSurface" class="screen">
+            </div>
+        </body>
+    </html>
+    <script type="module" src="voxels.js" defer></script>
