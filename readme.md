@@ -20,3 +20,8 @@ Demo is the Pittsburgh area, obtained from this [City: Skylines map generator](h
 - Lock height to terrain (Space key)
     - This is for hovering above the terrain without falling through.
 - Sky sourced from (https://unsplash.com/photos/LtWFFVi1RXQ)
+
+### Voxel Landscape Resources:
+- http://www.massal.net/article/voxel/  
+- https://github.com/s-macke/VoxelSpace
+- https://www.flipcode.com/archives/Realtime_Voxel_Landscape_Engines-Part_1_Introduction.shtml
