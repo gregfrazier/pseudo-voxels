@@ -8,6 +8,7 @@ Not a true voxel, it's basically 2.5D display of a two dimensional data set.
 Demo is the Pittsburgh area, obtained from this [City: Skylines map generator](https://heightmap.skydark.pl/)
 
 ![Demo Image](example.png)
+[Click for Live Demo](https://gregfrazier.github.io/pseudo-voxels/)
 
 ### Features:
 - Movement (Arrow Keys)
